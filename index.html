@@ -1,0 +1,647 @@
+<html lang="en">
+
+<head>
+
+   <head>
+      <meta charset="UTF-8">
+      <title>Shaayu online Hotel Booking website</title>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="icon" href="images/AS letter.webp" />
+   </head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>complete responsive hotel booking website design tutorial</title>
+
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+
+
+
+   <!-- font awesome cdn link -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+   <!-- custom css file link -->
+   <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+   <!-- header section starts  -->
+
+   <section class="header">
+
+      <div class="head">
+         <div class="useless">
+            <div class="flex">
+               <a href="#home" class="logo">Hotels And Resorts</a>
+               <a href="#availability" class="btn">check availibility</a>
+               <div id="menu-btn" class="fa fa-bars"></div>
+            </div>
+
+            <div class="nav">
+               <nav class="navbar">
+                  <a href="#home">Home</a>
+                  <a href="#about">About</a>
+                  <a href="#reservation">Reservation</a>
+                  <a href="#gallery">Gallery</a>
+                  <a href="#contact">Contact</a>
+                  <a href="#reviews">Reviews</a>
+               </nav>
+            </div>
+         </div>
+      </div>
+
+   </section>
+
+   <!-- header section ends -->
+
+   <!-- header section starts -->
+
+   <section class="home" id="home">
+
+      <div class="swiper mySwiper">
+         <div class="swiper-wrapper">
+            <div class="swiper-slide">
+               <div class="box">
+                  <img src="images/hotel 1png.jpg" alt="" width="">
+                  <div class="flex">
+                     <h3>luxurious Resorts</h3>
+                     <a href="#availability" class="btn">check availibility</a>
+                  </div>
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <div class="box">
+                  <img src="images/hotel2.jpg" alt="" width="">
+                  <div class="flex">
+                     <h3>foods and drinks</h3>
+                     <a href="#reservation" class="btn">make a reservation</a>
+                  </div>
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <div class="box">
+                  <img src="images/hotel3.jpg" alt="" width="">
+                  <div class="flex">
+                     <h3>luxurious rooms</h3>
+                     <a href="#availibility" class="btn">Comford Zone</a>
+                  </div>
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <div class="box">
+                  <img src="images/hotel4.jpg" alt="" width="">
+                  <div class="flex">
+                     <h3>luxurious halls</h3>
+                     <a href="#visiter" class="btn">Visiting Zone</a>
+                  </div>
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <div class="box">
+                  <img src="images/resturant.jpg" alt="" width="">
+                  <div class="flex">
+                     <h3>Any query contact us</h3>
+                     <a href="#contact" class="btn">contact us</a>
+                  </div>
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <div class="box">
+                  <img src="images/hotel6.jpg" alt="" width="">
+                  <div class="flex">
+                     <h3>foods and drinks</h3>
+                     <a href="#reservation" class="btn">make a reservation</a>
+                  </div>
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <div class="box">
+                  <img src="images/hotel5.jpg" alt="" width="">
+                  <div class="flex">
+                     <h3>foods and drinks</h3>
+                     <a href="#reservation" class="btn">make a reservation</a>
+                  </div>
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <div class="box">
+                  <img src="images/hotel7.jpg" alt="" width="">
+                  <div class="flex">
+                     <h3>foods and drinks</h3>
+                     <a href="#reservation" class="btn">make a reservation</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="swiper-button-next"></div>
+         <div class="swiper-button-prev"></div>
+      </div>
+
+
+
+   </section>
+
+   <!-- home section ends-->
+
+   <!--- availibility <section starts -->
+
+   <section class="availibility" id="availibility">
+
+      <div class="flex">
+         <form action="" method="post">
+            <div class="formflex">
+
+               <div class="box">
+                  <p>check in<span>*</span></p>
+                  <input type="date" name="check_in" class="input" required>
+               </div>
+               <div class="box">
+                  <p>check out<span>*</span></p>
+                  <input type="date" name="check_out" class="input" required>
+               </div>
+            </div>
+            <div class="formflex">
+
+
+               <div class="box">
+                  <p>adults<span>*</span></p>
+                  <select name="adults" class="input" required>
+                     <option value="1">1 adult</option>
+                     <option value="2">2 adults</option>
+                     <option value="3">3 adults</option>
+                     <option value="4">4 adults</option>
+                     <option value="5">5 adults</option>
+                     <option value="6">6 adults</option>
+                  </select>
+               </div>
+               <div class="box">
+                  <p>childs<span>*</span></p>
+                  <select name="childs" class="input" required>
+                     <option value="-">0 child</option>
+                     <option value="1">1 child</option>
+                     <option value="2">2 childs</option>
+                     <option value="3">3 childs</option>
+                     <option value="4">4 childs</option>
+                     <option value="5">5 childs</option>
+                     <option value="6">6 childs</option>
+                  </select>
+               </div>
+               <div class="box">
+                  <p>rooms<span>*</span></p>
+                  <select name="rooms" class="input" required>
+                     <option value="1">1 room</option>
+                     <option value="2">2 rooms</option>
+                     <option value="3">3 rooms</option>
+                     <option value="4">4 rooms</option>
+                     <option value="5">5 rooms</option>
+                     <option value="6">6 rooms</option>
+                  </select>
+               </div>
+            </div>
+         </form>
+      </div>
+      <input type="submit" value="check availibility" name="check" class="btn">
+      </form>
+
+   </section>
+
+   <!--- availibility <section ends -->
+
+   <!--- availibility <section starts -->
+
+   <section class="about" id="about">
+
+      <div class="row revers">
+
+         <div class="content">
+            <h3>best staff</h3>
+            <p>When it comes to finding hotel staff to fill vacancies, job boards represent one of the best available
+               options. After all, the people using these platforms are all actively seeking work and some job boards
+               specialise in connecting hotels with people who are keen to work in the hotel industry, or those who
+               already work in the industry.</p>
+            <a href="#reservation" class="btn">make a reservation</a>
+         </div>
+         <div class="image">
+            <img src="images/receptionists-5975962_1920.jpg" alt="">
+         </div>
+      </div>
+
+      <div class="row revers">
+         <div class="image">
+            <img src="images/platter-2009590_1920.jpg" alt="">
+         </div>
+         <div class="content">
+            <h3>best foods</h3>
+            <p> Anyone who loves food and wine will love going to restaurants. It’s good to unwind at a restaurant. we
+               provides a good and healthy food.</p>
+            <a href="#contact" class="btn">contact us</a>
+         </div>
+
+      </div>
+
+      <div class="row revers">
+         <div class="content">
+            <h3>swimming pool</h3>
+            <p>What is a swimming pool in a hotel for?
+               Hotel swimming pools remain a key element of what a hospitality business can offer to its clients. A
+               gathering place for guests, the right type of installation can become a source of fond memories that turn
+               into happy, loyal customers – which ultimately promote the business..</p>
+            <a href="#availability" class="btn">check availability</a>
+         </div>
+         <div class="image">
+            <img src="images/swimmingpool.jpg" alt="">
+         </div>
+      </div>
+
+
+
+   </section>
+
+   <!--- availibility <section ends -->
+
+   <!--- availibility <section starts -->
+
+   <section class="services">
+      <div class="services-items">
+
+
+
+         <div class="box">
+            <img src="images/whine.png1.jpg" width="90" height="100">
+            <h3>food & drinks</h3>
+            <p>The food and beverage service is part of the service-oriented hospitality sector. It can be a part of a
+               large hotel or tourism business and it can also be run as an independent business.</p>
+         </div>
+
+         <div class="box">
+            <img src="images/gal1.jpg" width="90" height="100">
+            <h3>outdoor drinking </h3>
+            <p>Our wide range of Outdoor Drinking Water Fountains are robust enough to handle a variety of external
+               environments and weather conditions. Ideal for high usage public environments such as parks, school
+               playgrounds, university campuses, and other outdoor complexes.</p>
+         </div>
+
+         <div class="box">
+            <img src="images/beach.jpg" width="90" height="100">
+            <h3>beach view</h3>
+            <p>If you also love spending time on the beach and you often find yourself struggling with crafting the
+               perfect caption for your beach picture on Instagram, you are in the right place!</p>
+         </div>
+
+         <div class="box">
+            <img src="images/christmas-2971961_1920.jpg" width="90" height="100">
+            <h3>decerocations</h3>
+            <p>You can go for a helium gas balloons room decoration at home in Gurgaon Delhi NCR which is done within 30
+               minutes of arrival at your home, this decoration is best when you have less time to surprise your loved
+               ones.</p>
+         </div>
+         <div class="box">
+            <img src="images/girls-1284419_1920.jpg" width="90" height="100">
+            <h3>swimming</h3>
+            <p>Whether you’re recovering from an injury, looking to streamline that waist in time for the summer season,
+               or just keep in shape, swimming is a great physical activity. In a hot, dreary, dirty city like ours it
+               is also a much-needed respite.
+
+               So grab your goggles, trunks and towels and head to these swimming pools in Gurgaon best hotel.</p>
+         </div>
+
+         <div class="box">
+            <img src="images/resort beach.jpg" width="90" height="100">
+            <h3>resort beach</h3>
+            <p>Plan a perfect getaway in a place where the sun shines all year. Explore Qatar’s pristine beaches, enjoy
+               relaxed activities, and pamper yourself at the many wellness retreats.</p>
+         </div>
+      </div>
+
+   </section>
+
+   <!--- availibility <section ends -->
+
+   <!--- reservation section starts -->
+
+   <section class="reservation" id="reservation">
+
+      <div class="flex">
+         <form action="" method="post">
+            <h3>make a reservation</h3>
+            <div class="flexform">
+
+               <div class="formflex">
+
+                  <div class="box">
+                     <p>check in<span>*</span></p>
+                     <input type="date" name="check_in" class="input" required>
+                  </div>
+                  <div class="box">
+                     <p>check out<span>*</span></p>
+                     <input type="date" name="check_out" class="input" required>
+                  </div>
+               </div>
+               <div class="formflex">
+
+
+                  <div class="box">
+                     <p>adults<span>*</span></p>
+                     <select name="adults" class="input" required>
+                        <option value="1">1 adult</option>
+                        <option value="2">2 adults</option>
+                        <option value="3">3 adults</option>
+                        <option value="4">4 adults</option>
+                        <option value="5">5 adults</option>
+                        <option value="6">6 adults</option>
+                     </select>
+                  </div>
+               </div>
+               <div class="formflex">
+                  <div class="box">
+                     <p>childs<span>*</span></p>
+                     <select name="childs" class="input" required>
+                        <option value="-">0 child</option>
+                        <option value="1">1 child</option>
+                        <option value="2">2 childs</option>
+                        <option value="3">3 childs</option>
+                        <option value="4">4 childs</option>
+                        <option value="5">5 childs</option>
+                        <option value="6">6 childs</option>
+                     </select>
+                  </div>
+               </div>
+               <div class="formflex">
+                  <div class="box">
+                     <p>rooms<span>*</span></p>
+                     <select name="rooms" class="input" required>
+                        <option value="1">1 room</option>
+                        <option value="2">2 rooms</option>
+                        <option value="3">3 rooms</option>
+                        <option value="4">4 rooms</option>
+                        <option value="5">5 rooms</option>
+                        <option value="6">6 rooms</option>
+                     </select>
+                  </div>
+               </div>
+            </div>
+         </form>
+      </div>
+      <input type="submit" value="check availibility" name="check" class="btn">
+
+
+   </section>
+
+   <!--- availibility section ends -->
+
+   <!--- gallery section starts -->
+
+   <section class="gallery" id="gallery">
+
+      <div id="slider">
+         <div class="slides">
+            <img src="images/gal1.jpg" width="100%" />
+         </div>
+
+         <div class="slides">
+            <img src="images/2gal.jpg" width="100%" />
+         </div>
+
+         <div class="slides">
+            <img src="images/3gal.jpg" width="100%" />
+         </div>
+
+         <div class="slides">
+            <img src="images/4gal.jpg" width="100%" />
+         </div>
+
+         <div class="slides">
+            <img src="images/5gal.jpg" width="100%" />
+         </div>
+
+         <div class="slides">
+            <img src="images/6gal.jpg" width="100%" />
+         </div>
+
+         <div class="slides">
+            <img src="images/7gal.jpg" width="100%" />
+         </div>
+
+         <div class="slides">
+            <img src="images/8gal.jpg" width="100%" />
+         </div>
+
+         <div class="slides">
+            <img src="images/gal9.jpg" width="100%" />
+         </div>
+
+         <div class="slides">
+            <img src="images/gal10.jpg" width="100%" />
+         </div>
+
+         <div class="slides">
+            <img src="images/gal11.jpg" width="100%" />
+         </div>
+
+
+
+         <div id="dot"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span
+               class="dot"></span><span class="dot"></span></div>
+      </div>
+
+   </section>
+
+   <!--- gallery section ends -->
+
+   <!--- contact section starts -->
+   <!--- contact section ends -->
+
+   <section class="contact" id="contact">
+
+      <div class="row">
+         <form action="" method="post">
+            <h3>Send us Message</h3>
+            <input type="text" name="name" required maxlength="50" placeholder="enter your name" class="box" />
+            <input type="email" name="email" required maxlength="50" placeholder="enter your email" class="box" />
+            <input type="number" name="number" required maxlength="10" min="0" max="9999999999"
+               placeholder="enter your number" class="box" />
+            <textarea name="msg" class="box" required maxlength="500" placeholder="enter you message" cols="30"
+               rows="2"></textarea>
+            <input type="submit" value="send message" name="send" class="btn">
+         </form>
+
+         <div class="faq">
+            <h3 class="title">frequently asked question</h3>
+            <div class="box active">
+               <h3>How to cancle?</h3>
+               <p>If you'd like to change or cancel your reservation, contact the hotel or online travel agency directly
+                  for help.</p>
+            </div>
+            <div class="box">
+               <h3>Is there any vacancy?</h3>
+               <p>"Try to make contact with people already doing the job you'd like, ask them how they got those jobs,
+                  tell them you're looking and ask if they know who to contact or if there are any vacancies coming up.
+               </p>
+            </div>
+            <div class="box">
+               <h3>What are payment methods?</h3>
+               <p> The three most common types of payment in today's market are credit cards, debit cards, and cash.
+                  Credit and debit card transactions involve fees paid by merchants to the card companies, but they tend
+                  to involve larger purchase amounts than cash transactions.</p>
+            </div>
+            <div class="box">
+               <h3>How to claim coupons codes?</h3>
+               <p> Find Coupon Or Promo Code. Now with us! Results in seconds. More value than ever. Real-Time Data.
+                  Unbeatable Value. Make Things Easy. Try It Free. Connect on any device. We just got better. Quality
+                  tested. Newest look. Services: Visit us, Search Pages, Related Terms, Related Results.</p>
+            </div>
+            <div class="box">
+               <h3>What are the age requitements?</h3>
+               <p>A person under the age of 18 is considered a minor in India, according to the law. However, in rare
+                  cases, particularly if criminality is involved, a person under the age of 18 (usually 16 or 17) might
+                  be prosecuted as an adult in a court of law.</p>
+            </div>
+         </div>
+      </div>
+
+   </section>
+
+   <!--contact section end-->
+
+   <!--reviews section start-->
+
+
+   <section class="reviews" id="reviews">
+      <div class="container">
+         <div class="arrow arrow-left"><i class="fas fa-chevron-circle-left"></i></div>
+         <div class="box">
+            <img src="images/pick1a.jpg" alt="">
+            <h3>Pranab Bhardwaj</h3>
+            <p>The rooms were clean, very comfortable, and the staff was amazing. They went over and beyond to help
+               make
+               our stay enjoyable. I highly recommend this hotel for anyone visiting downtown</p>
+         </div>
+         <div class="box">
+            <img src="images/pick2b.jpg" alt="">
+            <h3>Pranab Bhardwaj</h3>
+            <p>The staff at this property are all great! They all go above and beyond to make your stay comfortable.
+               Please (HN) give your staff awards!</p>
+         </div>
+         <div class="box">
+            <img src="images/pick3c.jpg" alt="">
+            <h3>Pranab Bhardwaj</h3>
+            <p>Excellent property and very convenient to USC activities. Front desk staff is extremely efficient,
+               pleasant and helpful. Property is clean and has a fantastic old time charm.</p>
+         </div>
+         <div class="box">
+            <img src="images/pick4d.jpg" alt="">
+            <h3>Pranab Bhardwaj</h3>
+            <p> Everything was great at this hotel.. amazing staff that is friendly and makes customers feel welcome.
+            </p>
+         </div>
+         <div class="box">
+            <img src="images/pick5e.jpg" alt="">
+            <h3>Pranab Bhardwaj</h3>
+            <p>Lovely hotel with a wonderful restaurant. Very friendly staff. Hotel is full of great art. Just a
+               charming place.</p>
+         </div>
+         <div class="box">
+            <img src="images/pick6f.jpg" alt="">
+            <h3>Pranab Bhardwaj</h3>
+            <p>We went to the rooftop bar and had an amazing time. The atmosphere and service were great. Definitely a
+               must do if you are looking for a good time.</p>
+         </div>
+         <div class="arrow arrow-right"><i class="fas fa-chevron-circle-right"></i>
+         </div>
+         <div class="dots">
+            <div class="dot">
+               <i class="far fa-dot-circle"></i>
+            </div>
+            <div class="dot">
+               <i class="far fa-circle"></i>
+            </div>
+            <div class="dot">
+               <i class="far fa-circle"></i>
+            </div>
+            <div class="dot">
+               <i class="far fa-circle"></i>
+            </div>
+            <div class="dot">
+               <i class="far fa-circle"></i>
+            </div>
+            <div class="dot">
+               <i class="far fa-circle"></i>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- reviews section ends  -->
+
+   <!--footer section starts start-->
+
+   <section class="footer">
+
+      <div class="box-container">
+
+         <div class="box">
+            <a href="tel:7903546186"><i class="fas fa-phone"></i>7903546186</a>
+            <a href="tel:8678076594"><i class="fas fa-phone"></i>8678076594</a>
+            <a href="mailto:ayushkumar4593@gmail.com"><i class="fas fa-envelope"></i>
+               ayushkumar4593@gmail.com</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i>Gurugram, India - 122101</a>
+         </div>
+
+         <div class="box home-list">
+
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#reservation">Reservation</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+            <a href="#reviews">Reviews</a>
+         </div>
+
+         <div class="box">
+            <a href="https://www.facebook.com/Ayushjha4593"> <i class="fab fa-facebook-f"></i>
+               <p style="margin-left: 20px;">Facebook</p>
+            </a>
+            <a href="https://twitter.com/ayushjha6708"><i class="fa-brands fa-twitter"></i>
+               <p style="margin-left: 20px;">twitter</p>
+            </a>
+            <a href="https://www.instagram.com/ayush___jha___/"><i class="fa-brands fa-instagram"></i>
+               <p style="margin-left: 20px;">instagram</p>
+            </a>
+            <a href="https://www.linkedin.com/in/pranab-bhardwaj-49751a204/"> <i class="fa-brands fa-linkedin"></i>
+               <p style="margin-left: 20px;">linkedin</p>
+            </a>
+            <a href="https://www.youtube.com/channel/UCEOoogkYItQhLegVFjV62Hg"> <i class="fa-brands fa-youtube"></i>
+               <p style="margin-left: 20px;">youtube</p>
+            </a>
+         </div>
+
+
+      </div>
+
+      <div class="credit"> &copy; copright @ 2023 by Pranab Bhardwaj Web designer | all rights reseved! </div>
+   </section>
+
+<!-- footer section ends  -->
+
+
+
+
+
+
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+   <!-- custom js file link  -->
+   <script src="script.js"></script>
+
+</body>
+
+</html>
